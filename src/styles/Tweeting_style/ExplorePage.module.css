@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.explore-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 33px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.explore-links {
+  width: 304px;
+  height: 219px;
+  border-radius: 4px;
+  background-color: #fff;
+  list-style-type: none;
+}
+
+.explore-links li {
+  padding-top: 10px;
+  margin-bottom: 23px;
+  margin-left: -32px;
+}
+
+.explore-links li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-size: 14px;
+  padding-left: 20px;
+  color: #828282;
+}
+
+.explore-links .active {
+  border-left: solid 3px #2F80ED;
+}
+
+.explore-body {
+  margin-left: 24.98px;
+  width: 745px;
+}
+
+.search-field {
+  width: 745px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 7px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.search-field textarea {
+  width: 543px;
+  height: 22px;
+  color: #002;
+  resize: none;
+  border: none;
+  font-family: Noto Sans;
+  font-size: 16px;
+  overflow: auto;
+  vertical-align: top;
+  letter-spacing: -3.5%;
+  margin-right: 21px;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.search-field .search-icon {
+  margin-right: 21px;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #BDBDBD;
+}
+
+.search-field button {
+  width: 81px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: #2F80ED;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 20.79px;
+  margin-top: 7px;
+}
+
+.explore-content {
+  width: 745px;
+  margin-top: 16px;
+  padding: 20px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=ExplorePage.module.css.map */

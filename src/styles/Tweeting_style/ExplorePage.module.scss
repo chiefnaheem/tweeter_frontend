@@ -1,0 +1,100 @@
+@import "../Tweeting_style/Variables/variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // display: none;
+    // border:2px solid red;
+}
+
+.explore-container{
+    display: flex;
+    justify-content: center;
+    margin-top:33px;
+    flex-wrap: wrap;
+    width: 100%;
+
+   
+}
+
+//links container
+.explore-links {
+    width:304px;
+    height:219px;
+    border-radius: 4px;
+    background-color: $backgroundColor;
+    list-style-type: none;
+   
+    li{
+        padding-top: 10px;
+        margin-bottom: 23px;
+        margin-left: -32px;
+        a{
+            text-decoration: none;
+            font-size:14px;
+            font-size:14px;
+            padding-left: 20px;
+            color:#828282;
+        } 
+    }
+    .active{
+        border-left:  solid 3px $primaryColor;
+    }
+}
+// explore body content
+.explore-body{
+    margin-left: 24.98px;
+    width:745px;
+    // background-color: $backgroundColor;
+}
+
+//search field{
+
+    .search-field{
+        width:745px;
+        height: 54px;
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 4px;
+        background-color: $backgroundColor;
+        padding: 7px;
+        align-items: flex-start;
+        margin-bottom: 16px;
+
+        textarea{
+            width:543px;
+            height: 22px;
+            color: #002;
+            resize: none;
+            border: none;
+            font-family: Noto Sans;
+            font-size: 16px;
+            overflow: auto;
+            vertical-align: top;
+            letter-spacing: -3.5%;
+            margin-right: 21px;
+            margin-top: 10px;
+            padding: 2px;
+        }
+        .search-icon{
+            margin-right: 21px;
+            font-size:20px;
+            margin-top: 5px;
+            color: #BDBDBD;
+        }
+        button{
+            @include buttonStyle($color:#fff, $backgroundColor:#2F80ED);
+            margin-left: 20.79px;
+            margin-top: 7px;
+
+            
+        }
+    }
+
+    .explore-content{
+        width:745px;
+        margin-top:16px;
+        padding: 20px;
+        background-color: $backgroundColor;
+    }

@@ -1,0 +1,100 @@
+
+
+@fontface {
+    font-family: 'Noto Sans',Poppins, cursive;
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans'); 
+     src: url('https://fonts.googleapis.com/css?family=Poppins')
+  }
+
+  body {
+    font-family: 'Noto Sans', cursive;
+  }
+
+  $primary-color-blue:#2F80ED;
+  $primary-color-white:white;
+  
+
+
+  .top-header{
+      padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    font-family:  'Poppins'
+}
+
+.my-modal {
+    width: 60vw ;   /* Occupy the 90% of the screen width */
+    max-width: 60vw;
+    padding:0
+} 
+
+.border{
+    border-top: 0.5px solid #ccc;
+}
+
+.follow-img{
+    height:50px;
+    width:50px;
+    display: flex;
+    align-self: center;
+    margin-right: 1rem;
+    border-radius:0.5rem;
+}
+
+
+button{
+    margin-top:1rem;
+    height: 2.0rem;
+    background-color:$primary-color-blue;
+    color:$primary-color-white;
+    border-radius: 0.2rem;
+    border: none
+    
+
+}
+
+.biodata {
+    display: flex;
+    text-align: left !important; 
+    margin: 0 !important;
+    font-size: 2rem!important;
+ 
+}
+
+.follow-name{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem
+   
+}
+p{
+    font-size:0.8rem;
+    margin: 0 !important;
+}
+
+.img-component{
+    display: flex;
+    justify-content: space-between;
+    margin-top:  1rem
+}
+
+
+article{
+    align-content: center;
+    margin: 0
+}
+
+.my-button{
+    padding: 0.2rem;
+    padding-left:1rem;
+    padding-right:1rem
+}

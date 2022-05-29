@@ -1,0 +1,258 @@
+.wrapper {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  justify-content: space-between;
+  
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.person_name {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.21px;
+}
+
+.person_date {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+.tweet p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+.profile {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.profile__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.main {
+  width: 100%;
+  /* height: 37px; */
+  /* border: 2px solid black; */
+  margin-top: 20px;
+}
+
+.main_img {
+  width: 100%;
+  border-radius: 10px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top center;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 700px) {
+  .main_img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+.action {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 7px;
+}
+.action .actions {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.action .actions {
+  list-style: none;
+  /* margin: 0 10px; */
+}
+
+.actions button {
+  font-size: 14px;
+  color: #4f4f4f;
+  font-weight: 500;
+  border-radius: 8px;
+  width: 150%;
+  height: 41.17px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.actions button:hover {
+  background: #f2f2f2;
+}
+
+.actions button {
+  transform: scale(0.98);
+}
+
+.actions button span {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.actions button span .icons {
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.second {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  color: #bdbdbd;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.second li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.last {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+.profile2 {
+  width: 40px;
+  height: 45.86px;
+  margin-right: 15px;
+}
+
+.profile2_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.form {
+  background: #fafafa;
+  border-radius: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form textarea {
+  width: 90%;
+  height: 30px;
+  color: #002;
+  resize: none;
+  border: none;
+  font-family: Noto Sans;
+  font-size: 16px;
+  overflow: auto;
+  margin: 10px;
+  vertical-align: top;
+  letter-spacing: -3.5%;
+  /* margin-bottom: 10px; */
+}
+
+.iconBox {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  cursor: pointer;
+  /* flex: 0.05;
+  background-color: red;
+  height: 100%;
+  width: 100%; */
+}
+
+.iconBox:hover {
+  color: blue;
+}
+
+.form textarea::placeholder {
+  color: #bdbdbd;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* padding-top:12px; */
+}
+
+.button {
+  /* display: inline; */
+  color: #bdbdbd;
+}
+
+.buttonColor {
+  color: red;
+}
+
+@media screen and (max-width: 788px) {
+  /* .wrapper {
+    background-color: #ffffff; 
+    width: 65vw;
+  } */
+}
+
+@media screen and (max-width: 475px) {
+  .wrapper {
+    /* background-color: #ffffff; */
+    /* width: 70vw; */
+  }
+
+  .button {
+    /* display: none !important; */
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .second li {
+    /* background-color: #ffffff; */
+    /* font-size: 11px; */
+  }
+}
+
+Link .image-replacer {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid green;
+  text-decoration: none;
+}
+Link .image-replacer h3 {
+  font-size: 1px;
+}

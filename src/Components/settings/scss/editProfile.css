@@ -1,0 +1,94 @@
+.edit-profile {
+  border: 1px solid #e0e0e0;
+  padding: 30.86px 29.65px 42.6px 48.64px;
+  border-radius: 10px;
+  width: 51.6%;
+  margin: 5em auto;
+}
+
+.edit-profile input, .edit-profile textarea {
+  width: 416px;
+  color: #bdbdbd;
+  margin-bottom: 24px;
+  border-radius: 12px;
+}
+
+.edit-profile input {
+  height: 52px;
+}
+
+.edit-profile textarea {
+  height: 92px;
+}
+
+.edit-profile label, .edit-profile .btn {
+  font-size: 13px;
+}
+
+.edit-profile .btn {
+  border-radius: 5px;
+  width: 82px;
+  height: 38px;
+}
+
+.edit-profile .form-container .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edit-profile .form-container .change-profile-pics, .edit-profile .form-container .heading p {
+  font-size: 13px;
+  color: 828282px;
+  line-height: 18px;
+  letter-spacing: -3.5%;
+}
+
+.edit-profile .form-container .change-profile-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 32px 0;
+}
+
+.edit-profile .form-container .change-profile-pics input[type="file"] {
+  display: none;
+}
+
+.edit-profile .form-container .change-profile-pics .photo-input {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.edit-profile .form-container .change-profile-pics .photo-input svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.edit-profile .form-container .change-profile-pics .photo-input img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=editProfile.css.map */

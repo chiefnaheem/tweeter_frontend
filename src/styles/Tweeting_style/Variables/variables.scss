@@ -1,0 +1,48 @@
+$primaryColor: #2F80ED;
+$fontSize:12px;
+$backgroundColor:#fff;
+$borderRadius:12px;
+$fontFamily:Poppins,sans-serif;
+$regularColor: #4F4F4F;
+
+
+@mixin buttonStyle($color, $backgroundColor){
+    width:81px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: $backgroundColor;
+    color:$color;
+    border: none;
+    cursor: pointer;
+}
+
+
+@mixin followButton($color, $backgroundColor){
+    width:79px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: $backgroundColor;
+    color:$color;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin h3Header(){
+
+    font-size:12px;
+        color:#4F4F4F;
+        padding-top:10.91px;
+        font-weight: bolder;
+}
+
+@mixin underline(){
+    border: 1px solid #E0E0E0;
+    width:706.21px;
+    // margin-top: 10px;
+}
+
+@mixin underlineMobile(){
+    border: 1px solid #E0E0E0;
+    width:100%;
+    
+}

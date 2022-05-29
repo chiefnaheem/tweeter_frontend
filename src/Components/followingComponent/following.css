@@ -1,0 +1,112 @@
+@fontface {
+  font-family: 'Noto Sans',Poppins, cursive;
+  src: url("https://fonts.googleapis.com/css?family=Noto+Sans");
+  src: url("https://fonts.googleapis.com/css?family=Poppins");
+}
+
+body {
+  font-family: 'Noto Sans', cursive;
+}
+
+.top-header {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h4 {
+  font-family: 'Poppins';
+}
+
+.my-modal {
+  width: 60vw;
+  /* Occupy the 90% of the screen width */
+  max-width: 60vw;
+  padding: 0;
+}
+
+.border {
+  border-top: 0.5px solid #ccc;
+}
+
+.follow-img {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  height: 2.0rem;
+  background-color: #2F80ED;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.biodata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left !important;
+  margin: 0 !important;
+  font-size: 2rem !important;
+}
+
+.follow-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.8rem;
+  margin: 0 !important;
+}
+
+.img-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+article {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0;
+}
+
+.my-button {
+  padding: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/*# sourceMappingURL=following.css.map */

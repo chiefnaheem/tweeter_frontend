@@ -1,0 +1,60 @@
+.trending-container-mobile {
+  width: 90%;
+  margin: 60px auto;
+}
+
+.trending {
+  width: 450px;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-top: 10.91px;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+}
+
+.trending-content {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 4px;
+  margin-top: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.trending-content a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-bottom: 8px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.trending-content span {
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  color: #828282;
+}
+
+.trending-content:hover {
+  opacity: 0.7;
+}
+
+.underline {
+  border: 1px solid #E0E0E0;
+  width: 100%;
+}
+/*# sourceMappingURL=TrendingPage.module.css.map */
